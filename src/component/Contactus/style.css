@@ -1,0 +1,133 @@
+.At__contactus {
+  width: 100%;
+  background: linear-gradient(333.51deg, #179bf3 18.19%, #89d0ff 98.7%);
+  padding: 15rem 3rem 3rem 3rem;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin: 7rem 0 2rem 0px;
+}
+.img12 {
+  margin-top: -24rem;
+  position: absolute;
+  left: 22rem;
+}
+.img12 img {
+  animation: staytouch 1.5s infinite;
+}
+@keyframes staytouch {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+.At__contactus h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 2rem;
+}
+#input__from {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+}
+#enter_input {
+  border-radius: 50px;
+  border: 0.5px solid #6b0505;
+  height: 70px;
+  width: 38%;
+  padding: 0 35px;
+  margin-right: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  opacity: 7;
+}
+#enter_input::placeholder {
+  color: #9fa7ba;
+}
+#subscribe__btn {
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  width: 20%;
+  height: 70px;
+  color: #fff;
+  transition: background, box-shadow 375ms ease;
+  background: #ff9d44;
+  border-radius: 50px;
+  border: none;
+  transition: 0.5s;
+}
+#subscribe__btn:hover {
+  box-shadow: 0 0 10px #db7d24, 0 0 20px #ff9d44, 0 0 30px #ff9d44;
+}
+
+.email__div {
+  width: 100%;
+  background-color: #4cb2f6;
+  height: 2px;
+  opacity: 5;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.Contactbtn__div {
+  display: flex;
+  margin-right: auto;
+  justify-items: center;
+  align-items: end;
+  justify-content: space-between;
+}
+.Contactbtn_heading {
+  margin-left: 2rem;
+  margin-top: 30px;
+}
+
+.Contactbtn_heading h6 {
+  text-align: start;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: #fefeff;
+}
+.Contactbtn_heading p {
+  text-align: start;
+  letter-spacing: 0.5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #dff4fe;
+  margin-bottom: 0px;
+}
+.contactus_btn {
+  color: #fefeff;
+  height: 70px;
+  width: 20%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 19px;
+  border: 1px solid #f9fcff;
+  background: none;
+  border-radius: 50px;
+  overflow: hidden;
+  transform: 0.3s;
+}
+
+.contactus_btn:hover {
+  color: #fefeff;
+  box-shadow: 0 0 10px #f9fcff, 0 0 40px #f9fcff, 0 0 80px #f9fcff;
+}

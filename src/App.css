@@ -1,0 +1,34 @@
+.At_Loyout {
+  width: 100%;
+  padding: 61px 6rem;
+  position: relative;
+  background: #edf1f5 !important;
+}
+.At_ookisection {
+  padding: 0 11rem;
+  width: 100%;
+  position: relative;
+  background: #edf1f5 !important;
+}
+.Footer_div {
+  width: 100%;
+  padding: 4rem 11rem;
+  position: relative;
+  background-color: #e2e5ef;
+}
+.At_Okiheader {
+  padding: 0 2rem;
+}
+@media only screen and (max-width: 1510px) {
+  .At_ookisection {
+    padding: 0 0rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .At_Loyout {
+    padding: 61px 4rem;
+  }
+  #At-header {
+    width: 95% !important;
+  }
+}

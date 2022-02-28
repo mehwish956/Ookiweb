@@ -1,0 +1,145 @@
+.At__Ecosystem {
+  width: 100%;
+  margin-top: 10rem;
+  text-align: center;
+  justify-content: center;
+  padding: 4rem 0 7rem 0;
+}
+
+.tab___div {
+  width: 100%;
+}
+.MULTICHAIN__div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.MULTICHAIN_tab {
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(1turn, #f4f8fd, #fefeff), #fff;
+  border-radius: 60px;
+  padding-left: 0px;
+}
+.react-tabs__tab {
+  display: inline-block;
+  border: none !important;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 13px 45px !important;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  color: #5a7595 !important;
+  transition: all 375ms ease;
+  letter-spacing: 0.5px;
+}
+.react-tabs__tab--selected {
+  background: #00003d !important ;
+  border-color: none !important;
+  color: #ffff !important;
+  border-radius: 50px !important;
+}
+.At__Blockchain {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 2rem;
+}
+.blockchain__div {
+  width: 50%;
+  display: inline-block;
+}
+.blockchain__div1 {
+  width: 50%;
+  display: inline-block;
+  padding-left: 5rem;
+  margin-top: 2rem;
+  justify-content: start;
+  text-align: left;
+}
+.blockchain__div1 h1 {
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  font-size: 46px;
+  color: #2c183d !important;
+}
+.blockchain__div1 p {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #71819b !important;
+  letter-spacing: 0.5px;
+}
+.blockchain__div1 ul {
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 2rem;
+  text-align: center;
+}
+.blockchain__div1 ul li img {
+  margin-bottom: 1rem;
+}
+
+.useooki__btn {
+  margin-top: 3rem;
+  color: #ffff;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  width: 55%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #189af2;
+  border: none;
+  transition: 0.5s;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.useooki__btn:hover {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  background-position: 100% 0;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.blockchain__div1 .dao__div ul {
+  padding-left: 0px;
+  display: flex;
+  width: 95%;
+}
+.blockchain__div1 .dao__div li {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.blockchain__div1 .dao__div li img {
+  margin-bottom: 0px;
+}
+.blockchain__div1 .dao__div li p {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #71819b !important;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}

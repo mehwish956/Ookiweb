@@ -1,0 +1,105 @@
+.At__Borrowcrypto {
+  width: 100%;
+  padding: 0rem 0;
+  position: relative;
+  display: flex;
+}
+.Borrowcrypto__div {
+  width: 60%;
+  display: inline-block;
+  position: relative;
+}
+.Borrowcrypto__div1 {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.borrow__div {
+  margin-top: 2rem;
+  width: 45%;
+  display: inline-block;
+  margin-right: 25px;
+}
+.borrow__div1 {
+  width: 45%;
+  margin-top: 2rem;
+  display: inline-block;
+}
+.borrow__div img {
+  height: 12%;
+  width: 15%;
+}
+.borrow__div1 img {
+  height: 12%;
+  width: 15%;
+}
+.INTERESTS__div {
+  margin-left: 15px;
+}
+.INTERESTS__div h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #676a74;
+  letter-spacing: 0.5px;
+}
+.INTERESTS__div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #8d9199;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+.Borrowcrypto__color {
+  background: linear-gradient(
+    194.47deg,
+    #f6f6f7 12.38%,
+    rgba(246, 246, 247, 0) 108.94%
+  );
+  border-radius: 50%;
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  left: -11rem;
+  top: 100rem;
+  background-attachment: fixed;
+}
+.Borrownow__btn {
+  margin-top: 3rem;
+  color: #ffff;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  width: 43%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #189af2;
+  border: none;
+  transition: 0.5s;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.Borrownow__btn:hover {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  background-position: 100% 0;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.Borrowcrypto__div1 img {
+  width: 100%;
+}

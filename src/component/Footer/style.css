@@ -1,0 +1,95 @@
+.Social_heading {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #9195ad;
+}
+.Social_div ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  display: flex;
+}
+.TwitterOutlined {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #8e94a8;
+  position: relative;
+  margin-right: 20px;
+}
+.TwitterOutlined:hover {
+  background-color: #ffff;
+  transition: all 0.5s ease-in-out;
+}
+.Social_icon {
+  color: #ffff;
+  font-size: 21px;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+}
+.Social_icon1 {
+  color: #ffff;
+  font-size: 21px;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+}
+.Social_icon2 {
+  color: #ffff;
+  width: 20px;
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  filter: grayscale(100%);
+}
+.TwitterOutlined:hover .Social_icon {
+  color: #1e9ef4;
+  transition: all 0.5s ease-in-out;
+}
+.TwitterOutlined:hover .Social_icon1 {
+  color: #ff0000;
+  transition: all 0.5s ease-in-out;
+}
+.TwitterOutlined:hover .Social_icon2 {
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(0);
+}
+
+.footer_logo {
+  margin-top: 7rem;
+  margin-bottom: 10px;
+}
+.footer_logo img {
+  cursor: pointer;
+}
+.OOKI_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #9195ad;
+}
+.OOKI_text:hover {
+  color: #1e9ef4;
+  text-decoration: none;
+}
+.OOKI_Protocol ul {
+  margin-bottom: 0px;
+  list-style: none;
+  padding-left: 0px;
+}
+.OOKI_Protocol ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9195ad;
+  line-height: 35px;
+}
+.OOKI_Protocol ul a li:hover {
+  text-decoration: none;
+  color: #1e9ef4;
+}
+a:hover {
+  text-decoration: none;
+}

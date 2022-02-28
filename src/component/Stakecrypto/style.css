@@ -1,0 +1,122 @@
+.At__stakesection {
+  width: 100%;
+  display: flex;
+  position: relative;
+  padding: 4rem 0;
+}
+.At__stake {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  text-align: center;
+}
+.At__stake1 {
+  display: inline-block;
+  width: 60%;
+  position: relative;
+  padding-left: 3rem;
+}
+.stakediv__color {
+  background: linear-gradient(
+    191.15deg,
+    #f6f6f7 17.21%,
+    rgba(246, 246, 247, 0) 69.76%
+  );
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  left: 11rem;
+  background-attachment: scroll;
+}
+.stake__img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.stake__img p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: #66728e;
+  letter-spacing: 0.5px;
+  margin-left: 25px;
+}
+.staking__div {
+  width: 93%;
+  padding: 2rem;
+  background: linear-gradient(1turn, #f1f6fd 25.92%, #edf1f7);
+  border-radius: 20px;
+  margin-top: 2rem;
+  border: 1px solid #fff;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 5%);
+}
+.staking__div h6 {
+  color: #636f8c;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.staking__div p {
+  color: #727e98;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.stake__btn {
+  margin-top: 2rem;
+  color: #ffff;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  width: 50%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #189af2;
+  border: none;
+  transition: 0.5s;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.stake__btn:hover {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  background-position: 100% 0;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.img10 {
+  display: flex;
+  position: absolute;
+  right: -8rem;
+  top: 20rem;
+  height: 217px;
+}
+
+@media only screen and (max-width: 1510px) {
+  .img10 {
+    right: 0rem;
+    top: 23rem;
+  }
+  .stake__img p {
+    margin-left: 4px;
+  }
+}

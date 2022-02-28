@@ -1,0 +1,112 @@
+.At__finance {
+  width: 60%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.At__finance1 {
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 1rem;
+  text-align: center;
+}
+.At__finance p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #697591;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+  margin-top: 31px;
+}
+.ooki__div {
+  width: 23%;
+  background: linear-gradient(1turn, #f1f6fd 17.71%, #e3ecf9);
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+  margin-right: 6px;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 10px 40px 10px;
+}
+.At__finance .ooki__div p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #7d88a1;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+.At__finance .ooki__div h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: #29193e;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 5rem;
+}
+.At__finance .ooki__div span {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #29193e;
+  font-weight: 600;
+}
+.ooki__div1 {
+  width: 23%;
+  background: #fff;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 0%);
+  margin: 6px;
+  text-align: center;
+  justify-content: center;
+  padding: 30px 10px 40px 10px;
+  transition: 0.5s;
+}
+.ooki__div1:hover {
+  background: linear-gradient(1turn, #f1f6fd 17.71%, #e3ecf9);
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+}
+.At__finance .ooki__div1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #7d88a1;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+.At__finance .ooki__div1 h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: #29193e;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-top: 5rem;
+}
+.At__finance .ooki__div1 span {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #29193e;
+  font-weight: 600;
+}
+.At__clouddiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+}
+@media only screen and (max-width: 1440px) {
+  .ooki__div {
+    margin-right: 9px;
+  }
+  .ooki__div1 {
+    margin-right: 9px;
+  }
+}

@@ -1,0 +1,118 @@
+.Trade_crypto {
+  width: 100%;
+  padding: 4rem 0;
+  position: relative;
+  display: flex;
+}
+.Trade_div {
+  width: 60%;
+  display: inline-block;
+  position: relative;
+}
+.Trade_div1 {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.Trade_heading {
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #29193e;
+  line-height: 42px;
+  margin-bottom: 3rem;
+}
+.Crypto_div {
+  display: flex;
+  margin-top: 2rem;
+}
+.Custodial__div {
+  width: 100%;
+  height: 134px;
+  margin-right: 25px;
+  padding: 12px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background: linear-gradient(1turn, #f1f6fd 25.92%, #edf1f7);
+  border: 0.01rem solid transparent;
+  cursor: pointer;
+  border-radius: 2rem;
+  transition: box-shadow 375ms ease, border 375ms ease;
+}
+.Custodial__div:hover {
+  border: 1px solid #ffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.Custodial__div p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #8a8393;
+  margin-bottom: 0px;
+}
+.Custodial__div img {
+  width: 40%;
+}
+.Ooki_text {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #8a8393;
+  margin-top: 2rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding-left: 42px;
+}
+.Ooki_text:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  height: 2px;
+  width: 36px;
+  background-color: #b3d2e9;
+}
+
+.Crypto_img {
+  margin-top: 10px;
+}
+
+.Tradenow_btn {
+  color: #ffff;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  width: 90%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #189af2;
+  border: none;
+  transition: 0.5s;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.Tradenow_btn:hover {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  background-position: 100% 0;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.Trade_div1 img {
+  width: 100%;
+}

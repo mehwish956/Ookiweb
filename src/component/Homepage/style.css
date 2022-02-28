@@ -1,0 +1,267 @@
+.At__homediv {
+  width: 100%;
+  background: linear-gradient(224.19deg, #179bf3 24.65%, #89d0ff 100.29%);
+  padding: 7rem 4rem;
+  border-radius: 50px;
+  position: relative;
+}
+.At__homepage {
+  display: flex;
+  width: 100%;
+  margin: 5rem 0px;
+  position: relative;
+}
+.At__homediv p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #ecf1f7;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+.At__homediv h1 {
+  font-size: 3.33rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #ecf1f7;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.At__homediv h2 {
+  font-size: 3.33rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #ecf1f7;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.Lend___div {
+  height: 8px;
+  width: 110px;
+  background-color: #ecf1f7;
+  margin-right: 20px;
+}
+.At__GATEWAY {
+  width: 60%;
+}
+.At__homediv h4 {
+  font-size: 42px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #c0ffd9;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.At__homediv .trade__div {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 88%;
+  bottom: -2rem;
+}
+.At__homediv .trade {
+  width: 185px;
+  padding: 20px;
+  height: 75px;
+  border-radius: 20px;
+  background-color: #ffff;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.At__homediv .trade .trade__divcolor {
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #69d2ff;
+  transition: all 0.5s;
+}
+.At__homediv .trade:hover .trade__divcolor {
+  transform: translateX(6px);
+}
+
+.At__homediv .trade .Borrow__divcolor {
+  background-color: #ff9227;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.At__homediv .trade:hover .Borrow__divcolor {
+  transform: translateX(6px);
+}
+.At__homediv .black__div {
+  background-color: #2c183d;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  position: relative;
+}
+.At__homediv .trade .Lend__divcolor {
+  background-color: #00c78f;
+  width: 32px;
+  height: 33px;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.5s;
+}
+.At__homediv .trade:hover .Lend__divcolor {
+  transform: translateX(6px);
+}
+.At__homediv .trade .cryptoimg6 {
+  width: 32px;
+  height: 33px;
+  transition: all 0.5s;
+}
+.At__homediv .trade:hover .cryptoimg6 {
+  transform: translateX(6px);
+}
+.At__homediv .trade p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #5f6f8c;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+  position: relative;
+  margin-left: 1rem;
+}
+.img__div {
+  width: 10%;
+  position: relative;
+  animation: jumpInfinite 1.5s;
+  animation-iteration-count: 8;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.img__div .one {
+  position: relative;
+  top: 3rem;
+  left: 2rem;
+}
+.img__div .two {
+  position: relative;
+  top: 11rem;
+  left: -3rem;
+}
+.img__div .three {
+  position: relative;
+  top: 20rem;
+  left: -2rem;
+}
+.img__div1 {
+  width: 10%;
+  position: relative;
+  animation: jumpInfinite 1.5s;
+  animation-iteration-count: 8;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+.img__div1 .one {
+  position: relative;
+  top: 3rem;
+  left: 2rem;
+}
+.img__div1 .two {
+  position: relative;
+  top: 11rem;
+  right: -3rem;
+}
+.img__div1 .three {
+  position: relative;
+  top: 18rem;
+  right: 1rem;
+}
+
+.img11 {
+  width: 30%;
+}
+.cryptoimg7 {
+  width: 47%;
+  position: absolute;
+  top: -4rem;
+  right: -7rem;
+}
+.At__Liquidity {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 6rem 0px 3rem 0px;
+  align-items: end;
+  justify-items: end;
+}
+.Liquidity__div p {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #8a98ad;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+.logoimg2 {
+  margin-right: 10px;
+}
+.At__scrolldiv {
+  text-align: center;
+  position: relative;
+}
+.At__scrolldiv p {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #6f7e98;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
+}
+#DownOutlined {
+  font-size: 13px;
+  color: #6f7e98;
+  margin-top: 20px;
+  display: block;
+  animation: jumpInfinite 1.5s infinite;
+  position: absolute;
+  left: 38px;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .img__div1 .three {
+    right: -2rem;
+  }
+}
