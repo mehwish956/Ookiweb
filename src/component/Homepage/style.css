@@ -136,7 +136,7 @@
   width: 10%;
   position: relative;
   animation: jumpInfinite 1.5s;
-  animation-iteration-count: 8;
+  animation-iteration-count: infinite;
 }
 
 @keyframes jumpInfinite {
@@ -169,7 +169,7 @@
   width: 10%;
   position: relative;
   animation: jumpInfinite 1.5s;
-  animation-iteration-count: 8;
+  animation-iteration-count: infinite;
 }
 
 @keyframes jumpInfinite {
